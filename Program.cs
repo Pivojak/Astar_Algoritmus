@@ -12,7 +12,7 @@ namespace Bludiste
     {
         static void Main(string[] args)
         {
-            // Vytvoření nové instance ASTAR
+            // Vytvoření nové instance ASTAR tridy
             Astar novaHra = new Astar();
             // Na této instanci zavolám metodu PohybujSe ... 400 X 
             novaHra.PohybujSe(400);

@@ -14,7 +14,7 @@ namespace Bludiste
         /// </summary>
         public int SmerNatoceni { get; set; }
         /// <summary>
-        /// Int[2] -- [0] - X - radek , [1] - Y - sloupec
+        /// Int[2] -- [0] - X - radek , [1] - Y - Sloupec
         /// </summary>
         public int[] AktPozice { get; set; }
         /// <summary>
@@ -22,7 +22,7 @@ namespace Bludiste
         /// </summary>
         public int AktCenaCesty { get; set; }
         /// <summary>
-        /// AktCenaCesty + hodnota heuristicke funkce, tedy vzdalenost do cile
+        /// AktCenaCesty + hodnota heuristické funkce, tedy vzdalenost do cile
         /// </summary>
         public int CelkovaCenaCesty { get; set; }
 
